@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+ 
+p{
+ background-color: #FA2A55
+ ;
+ font-family: 'Verdana', Geneva, Tahoma, "DejaVu Sans", sans-serif;
+font-size: 24px;
+}
+#number2{
+    color: #000080;
+    font-size: 36px;
+}
+#number4{
+    background-color: #88E788;
+    font-size: 24px
+; font-weight: bold;   }
+ 
