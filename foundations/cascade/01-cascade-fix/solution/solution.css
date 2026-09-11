@@ -11,6 +11,9 @@ body{
 .para {
   font-size: 22px;
 }
+.small-para{
+  font-size: 14px;
+}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -24,50 +27,8 @@ div.text {
   font-size: 22px;
 }
 
-/* SOLUTION */
 
-/* 
-  For the following rule, we removed it from its original position in the file:
 
-  .small-para {
-    font-size: 14px;
-    font-weight: 800;
-  } 
-
-  Then we placed it after the .para selector, taking advantage of the rule order since both selectors have the same specificity. 
-  
-  Another solution would be keeping it in its original place and just chaining selectors, giving this rule a higher specificity:
-
-  p.small-para {
-    font-size: 14px;
-    font-weight: 800;
-  }
-*/
-
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
-/* 
-  For the following rule we removed the original .confirm selector:
-
-  .confirm {
-    background: green;
-    color: white;
-    font-weight: bold;
-  } 
-
-  Then we used an ID selector instead, since it has a higher specificity than the .button selector.
-
-  Other solutions would be to simply move the .confirm rule below the .button rule, or to use the .button.confirm selector without moving it:
-
-  .button.confirm {
-    background: green;
-    color: white;
-    font-weight: bold;
-  }
-*/
 
 #confirm-button {
   background: green;
